@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ArticleController;
+use App\Http\Controllers\DashboardController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,6 +15,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('index');
+Route::get('/', [ArticleController::class, 'index']);
+Route::get('/article/{article:slug}}', [ArticleController::class, 'show']);
+
+
+Route::group(['prefix' => 'dashboard', 'middleware' => 'auth'], function() {
+    Route::get('/', [DashboardController::class, 'index']);
 });

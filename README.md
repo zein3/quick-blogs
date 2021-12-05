@@ -9,29 +9,30 @@
 git clone https://github.com/zein3/quick-blogs.git
 ```
 
-2. Install backend dependencies
+2. Install frontend and backend dependencies
 ```bash
 composer install
-```
-
-3. Install frontend dependencies
-```bash
 npm install && npm run dev
 ```
 
-4. Copy configuration in .env.example
+3. Copy configuration in .env.example
 ```bash
 cp .env.example .env
 ```
 
-5. Generate app key
+4. Generate app key
 ```bash
 php artisan key:generate
 ```
 
-6. Configure database
+5. Configure database
 
-7. Start server
+6. Migrate the database
+```bash
+php artisan migrate
+```
+
+7. Start dev server
 ```bash
 php artisan serve
 ```
