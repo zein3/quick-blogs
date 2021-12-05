@@ -32,7 +32,7 @@ php artisan key:generate
 php artisan migrate
 ```
 
-7. Start server
+7. Start dev server
 ```bash
 php artisan serve
 ```

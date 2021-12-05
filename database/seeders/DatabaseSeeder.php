@@ -50,7 +50,8 @@ class DatabaseSeeder extends Seeder
             'slug' => 'howtodefeatagayvampire',
             'thumbnail' => 'https://wallpapercave.com/wp/wp5706047.png',
             'body' => 'Get star platinum',
-            'approved' => true
+            'approved' => true,
+            'published_at' => date('Y-m-d H-i-s')
         ]);
 
 

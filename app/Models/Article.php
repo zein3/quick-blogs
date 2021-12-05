@@ -20,4 +20,9 @@ class Article extends Model
     {
         // TODO
     }
+
+    public function scopePublished($query)
+    {
+        return $query->where('approved', true)->orderBy('published_at', 'desc');
+    }
 }
