@@ -32,6 +32,11 @@ php artisan key:generate
 php artisan migrate
 ```
 
+7. Link storage
+```bash
+php artisan storage:link
+```
+
 7. Start dev server
 ```bash
 php artisan serve
