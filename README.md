@@ -37,7 +37,7 @@ php artisan migrate
 php artisan storage:link
 ```
 
-7. Start dev server
+8. Start dev server
 ```bash
 php artisan serve
 ```
