@@ -37,5 +37,13 @@ class DatabaseSeeder extends Seeder
                 'article_id' => $article->id
             ]);
         }
+
+        User::create([
+            'username' => 'test',
+            'email' => 'test@gmail.com',
+            'password' => Hash::make('test'),
+            'full_name' => 'test al-testing',
+            'roles' => 'admin'
+        ]);
     }
 }
