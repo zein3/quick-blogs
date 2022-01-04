@@ -12,9 +12,9 @@ class LoginController extends Controller
         return view('login.index');
     }
 
-    public function login()
+    public function login(Request $request)
     {
-        $attributes = request()->validate([
+        $attributes = $request->validate([
             'email' => ['required'],
             'password' => ['required']
         ]);
@@ -28,14 +28,14 @@ class LoginController extends Controller
         }
 
         // Failed Login
-        return redirect()->route('login');
+        return back()->with('error', 'Username atau password salah')->withInput();
     }
 
-    public function logout()
+    public function logout(Request $request)
     {
         Auth::logout();
-        request()->session()->invalidate();
-        request()->session()->regenerateToken();
+        $request->session()->invalidate();
+        $request->session()->regenerateToken();
 
         return redirect()->route('index');
     }
