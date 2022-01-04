@@ -1,5 +1,14 @@
 @extends('layouts.app')
 
-@section('content')
+@section('body')
+    <h1>{{ $article->title }}</h1>
+    <small>oleh {{ $article->author->username }}</small>
 
+    <hr>
+
+    <p>
+        {{ $article->body }}
+    </p>
+
+    <a href="/">Go back</a>
 @endsection

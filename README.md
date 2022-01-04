@@ -1,6 +1,7 @@
 <h1 align="center">Quick - A laravel blog web application</h1>
 
 ## About Quick
+Quick is a web application I made to learn laravel
 
 ## Installation
 

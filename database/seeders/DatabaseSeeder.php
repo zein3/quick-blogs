@@ -29,9 +29,13 @@ class DatabaseSeeder extends Seeder
         DB::statement('SET FOREIGN_KEY_CHECKS = 1');
 
 
-        User::factory(10)->create();
-        Article::factory(3)->create();
-        Category::factory(2)->create();
-        ArticleCategory::factory(4)->create();
+        Article::factory(20)->create();
+        Category::factory(5)->create();
+
+        foreach(Article::all() as $article) {
+            ArticleCategory::factory()->create([
+                'article_id' => $article->id
+            ]);
+        }
     }
 }

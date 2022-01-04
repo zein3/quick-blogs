@@ -6,7 +6,7 @@ use App\Http\Controllers\DashboardController;
 
 
 Route::get('/', [ArticleController::class, 'index']);
-Route::get('/article/{article:slug}}', [ArticleController::class, 'show']);
+Route::get('/article/{article:slug}', [ArticleController::class, 'show']);
 
 
 Route::group(['prefix' => 'dashboard', 'middleware' => 'auth'], function() {
