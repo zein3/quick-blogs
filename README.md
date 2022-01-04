@@ -1,6 +1,7 @@
 <h1 align="center">Quick - A laravel blog web application</h1>
 
 ## About Quick
+Quick is a web application I made to learn laravel
 
 ## Installation
 
@@ -32,7 +33,12 @@ php artisan key:generate
 php artisan migrate
 ```
 
-7. Start dev server
+7. Link storage
+```bash
+php artisan storage:link
+```
+
+8. Start dev server
 ```bash
 php artisan serve
 ```
