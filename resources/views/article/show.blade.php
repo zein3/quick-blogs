@@ -10,5 +10,5 @@
         {{ $article->body }}
     </p>
 
-    <a href="/">Go back</a>
+    <a href="{{ route('index') }}">Go back</a>
 @endsection

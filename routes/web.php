@@ -3,10 +3,20 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ArticleController;
 use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\LoginController;
+use App\Http\Controllers\RegisterController;
 
 
-Route::get('/', [ArticleController::class, 'index']);
-Route::get('/article/{article:slug}', [ArticleController::class, 'show']);
+Route::get('/', [ArticleController::class, 'index'])->name('index');
+Route::get('/article/{article:slug}', [ArticleController::class, 'show'])->name('article');
+
+
+Route::get('/login', [LoginController::class, 'index'])->name('login')->middleware('guest');
+Route::post('/login', [LoginController::class, 'login']);
+Route::post('/logout', [LoginController::class, 'logout'])->name('logout')->middleware('auth');
+
+Route::get('/register', [RegisterController::class, 'index'])->name('register')->middleware('guest');
+Route::post('/register', [RegisterController::class, 'register']);
 
 
 Route::group(['prefix' => 'dashboard', 'middleware' => 'auth'], function() {
