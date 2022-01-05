@@ -1,7 +1,8 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\Auth;
 
+use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 
@@ -24,6 +25,7 @@ class LoginController extends Controller
         if (Auth::attempt([$identification => $attributes['email'], 'password' => $attributes['password']]))
         {
             // Successful Login
+            $request->session()->regenerate();
             return redirect()->route('index');
         }
 
