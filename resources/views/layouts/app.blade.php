@@ -8,8 +8,6 @@
         <x-link/>
     </head> 
     <body>
-        @yield('body')
-
         <header class="w-10/12 mx-auto py-6">
             <div class="flex justify-between">
                 <h1>Quick</h1>
@@ -21,13 +19,17 @@
                         <li><a class="" href="">Mitra</a></li>
                     </ul>
                     <ul class="flex gap-x-2">
-                        <li><a class="px-4 py-3 border" href="">Daftar</a></li>
-                        <li><a class="px-4 py-3 bg-blue-500" href="">Masuk</a></li>
+                        <li><a class="px-4 py-3 border" href="/register">Daftar</a></li>
+                        <li><a class="px-4 py-3 bg-blue-500" href="/login">Masuk</a></li>
                     </ul>
                 </nav>
             </div>
         </header>
-        <main></main>
+        <main>
+
+            @yield('body')
+
+        </main>
         <footer>
             <nav>
                 <ul>
