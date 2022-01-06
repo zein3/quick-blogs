@@ -8,7 +8,7 @@
         <x-link/>
     </head> 
     <body>
-        <header class="w-10/12 mx-auto py-6">
+        <header class="w-10/12 mx-auto py-6 border-b">
             <div class="flex justify-between">
                 <h1>Quick</h1>
                 <nav class="flex justify-between gap-x-10">
@@ -20,7 +20,7 @@
                     </ul>
                     <ul class="flex gap-x-2">
                         <li><a class="px-4 py-3 border" href="/register">Daftar</a></li>
-                        <li><a class="px-4 py-3 bg-blue-500" href="/login">Masuk</a></li>
+                        <li><a class="px-4 py-3 bg-indigo-500" href="/login">Masuk</a></li>
                     </ul>
                 </nav>
             </div>
