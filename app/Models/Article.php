@@ -30,4 +30,27 @@ class Article extends Model
     {
         return $query->where('approved', true)->orderBy('published_at', 'desc');
     }
+
+    public function scopeFilter($query, array $filters)
+    {
+        if ($filters['search'] ?? false)
+        {
+            $query->where('title', 'like', '%' . $filters['search'] . '%')
+                  ->orWhere('body', 'like', '%' . $filters['search'] . '%');
+        }
+
+        if ($filters['category'] ?? false)
+        {
+            $query->whereHas('categories', function($query)use($filters) {
+                $query->where('slug', $filters['category']);
+            });
+        }
+
+        if ($filters['author'] ?? false)
+        {
+            $query->whereHas('author', function($query)use($filters) {
+                $query->where('username', $filters['author']);
+            });
+        }
+    }
 }

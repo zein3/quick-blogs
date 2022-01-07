@@ -2,12 +2,13 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ArticleController;
-use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\Dashboard\DashboardController;
 use App\Http\Controllers\Auth\LoginController;
 use App\Http\Controllers\Auth\RegisterController;
 
 
 Route::get('/', [ArticleController::class, 'index'])->name('index');
+Route::get('/search', [ArticleController::class, 'search'])->name('search');
 Route::get('/article/{article:slug}', [ArticleController::class, 'show'])->name('article');
 
 

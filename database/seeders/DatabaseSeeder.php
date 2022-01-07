@@ -30,7 +30,19 @@ class DatabaseSeeder extends Seeder
 
 
         Article::factory(20)->create();
-        Category::factory(5)->create();
+
+        Category::create([
+            'name' => 'kampus',
+            'slug' => 'kampus'
+        ]);
+        Category::create([
+            'name' => 'jurusan',
+            'slug' => 'jurusan'
+        ]);
+        Category::create([
+            'name' => 'karir',
+            'slug' => 'karir'
+        ]);
 
         foreach(Article::all() as $article) {
             ArticleCategory::factory()->create([
@@ -44,6 +56,13 @@ class DatabaseSeeder extends Seeder
             'password' => Hash::make('test'),
             'full_name' => 'test al-testing',
             'roles' => 'admin'
+        ]);
+        User::create([
+            'username' => 'manajer',
+            'email' => 'manajer@gmail.com',
+            'password' => Hash::make('manajer'),
+            'full_name' => 'manajer manajerson',
+            'roles' => 'manager'
         ]);
     }
 }
