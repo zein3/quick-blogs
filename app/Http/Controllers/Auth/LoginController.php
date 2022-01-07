@@ -1,7 +1,8 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\Auth;
 
+use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 
@@ -20,15 +21,17 @@ class LoginController extends Controller
         ]);
 
         $identification = filter_var($attributes['email'], FILTER_VALIDATE_EMAIL) ? 'email' : 'username';
+        $remember = $request->input('remember-me') ? true : false;
 
-        if (Auth::attempt([$identification => $attributes['email'], 'password' => $attributes['password']]))
+        if (Auth::attempt([$identification => $attributes['email'], 'password' => $attributes['password']], $remember))
         {
             // Successful Login
-            return redirect()->route('index');
+            $request->session()->regenerate();
+            return redirect()->route('index')->with('notification', 'Berhasil masuk');
         }
 
         // Failed Login
-        return back()->with('error', 'Username atau password salah')->withInput();
+        return back()->with('error', 'Email atau password salah')->withInput();
     }
 
     public function logout(Request $request)
@@ -37,6 +40,6 @@ class LoginController extends Controller
         $request->session()->invalidate();
         $request->session()->regenerateToken();
 
-        return redirect()->route('index');
+        return redirect()->route('index')->with('notification', 'Berhasil keluar');
     }
 }
