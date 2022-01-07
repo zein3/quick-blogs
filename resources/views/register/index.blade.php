@@ -1,14 +1,6 @@
 @extends('layouts.app')
 
 @section('body')
-@if(session('error'))
-<p>{{ session('error') }}</p>
-@endif
-
-@foreach($errors->all() as $message)
-<p>{{ $message }}</p>
-@endforeach
-
 <form class="mt-8 space-y-6" action="{{ route('register') }}" method="POST">
     @csrf
 
@@ -18,6 +10,9 @@
                 <h2 class="mt-6 text-center text-3xl font-extrabold text-gray-900">
                     Register and be useful to others
                 </h2>
+                @if(session('error'))
+                    <x-alert :message="session('error')" />
+                @endif
             </div>
             <div class="px-8 pt-6 pb-8 mb-4 flex flex-col my-2">
                 <div class="-mx-3 md:flex mb-6">
@@ -30,7 +25,7 @@
                             class="appearance-none block w-full bg-grey-lighter text-grey-darker border border-red rounded py-3 px-4 mb-3"
                             id="username" name="username" type="text" placeholder="Username"
                             value="{{ old('username') }}">
-                        <p class="text-red text-xs italic">Please fill out this field.</p>
+                        <x-input-error field="username" />
                     </div>
                     <div class="md:w-1/2 px-3">
                         <label class="block uppercase tracking-wide text-grey-darker text-xs font-bold mb-2"
@@ -40,7 +35,8 @@
                         <input
                             class="appearance-none block w-full bg-grey-lighter text-grey-darker border border-grey-lighter rounded py-3 px-4"
                             id="full_name" name="full_name" type="text" placeholder="Full Name"
-                            value="{{ old('fullname') }}">
+                            value="{{ old('full_name') }}">
+                        <x-input-error field="full_name" />
                     </div>
                 </div>
                 <div class="-mx-3 md:flex mb-6">
@@ -51,7 +47,8 @@
                         </label>
                         <input
                             class="appearance-none block w-full bg-grey-lighter text-grey-darker border border-grey-lighter rounded py-3 px-4 mb-3"
-                            id="email" type="email" placeholder="example@example.com" value="{{ old('email') }}">
+                            id="email" type="email" name="email" placeholder="example@example.com" value="{{ old('email') }}">
+                        <x-input-error field="email" />
                     </div>
                 </div>
                 <div class="-mx-3 md:flex mb-6">
@@ -62,7 +59,7 @@
                         </label>
                         <input
                             class="appearance-none block w-full bg-grey-lighter text-grey-darker border border-grey-lighter rounded py-3 px-4 mb-3"
-                            id="phone_number" type="tel" placeholder="62 812 3456 7890" value="{{ old('phone') }}">
+                            id="phone_number" name="phone_number" type="tel" placeholder="62 812 3456 7890" value="{{ old('phone_number') }}">
                     </div>
                 </div>
                 <div class="-mx-3 md:flex mb-6">
@@ -75,6 +72,7 @@
                             class="appearance-none block w-full bg-grey-lighter text-grey-darker border border-red rounded py-3 px-4 mb-3"
                             id="password" name="password" type="password" placeholder="**********">
                         <p class="text-red text-xs italic">Make it as long and as crazy as you'd like</p>
+                        <x-input-error field="password" />
                     </div>
                     <div class="md:w-1/2 px-3">
                         <label class="block uppercase tracking-wide text-grey-darker text-xs font-bold mb-2"
@@ -85,6 +83,7 @@
                             class="appearance-none block w-full bg-grey-lighter text-grey-darker border border-grey-lighter rounded py-3 px-4"
                             id="password_confirmation" name="password_confirmation" type="password"
                             placeholder="**********">
+                        <x-input-error field="password_confirmation" />
                     </div>
                 </div>
                 <div class="flex items-center justify-between my-5">

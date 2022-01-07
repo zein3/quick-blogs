@@ -8,7 +8,7 @@
         <x-link/>
     </head> 
     <body>
-        <header class="w-10/12 mx-auto py-6 border-b">
+        <header class="w-10/12 py-6 mx-auto border-b">
             <div class="flex justify-between">
                 <h1>Quick</h1>
                 <nav class="flex justify-between gap-x-10">
@@ -18,10 +18,24 @@
                         <li><a class="" href="">Karir</a></li>
                         <li><a class="" href="">Mitra</a></li>
                     </ul>
-                    <ul class="flex gap-x-2">
-                        <li><a class="px-4 py-3 border" href="/register">Daftar</a></li>
-                        <li><a class="px-4 py-3 bg-indigo-500" href="/login">Masuk</a></li>
-                    </ul>
+                    @guest
+                        <ul class="flex gap-x-2">
+                            <li><a class="px-4 py-3 border" href="/register">Daftar</a></li>
+                            <li><a class="px-4 py-3 bg-indigo-500" href="/login">Masuk</a></li>
+                        </ul>
+                    @endguest
+                    @auth
+                        <ul class="flex gap-x-2">
+                            <li>
+                                <form id="logout-form" action="{{ route('logout') }}" method="POST">
+                                    @csrf
+                                    <a class="px-4 py-3 border" href="" x-data @click="$event.preventDefault(); document.getElementById('logout-form').submit()">
+                                        Keluar
+                                    </a>
+                                </form>
+                            </li>
+                        </ul>
+                    @endauth
                 </nav>
             </div>
         </header>

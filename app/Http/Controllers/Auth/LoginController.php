@@ -21,8 +21,9 @@ class LoginController extends Controller
         ]);
 
         $identification = filter_var($attributes['email'], FILTER_VALIDATE_EMAIL) ? 'email' : 'username';
+        $remember = $request->input('remember-me') ? true : false;
 
-        if (Auth::attempt([$identification => $attributes['email'], 'password' => $attributes['password']]))
+        if (Auth::attempt([$identification => $attributes['email'], 'password' => $attributes['password']], $remember))
         {
             // Successful Login
             $request->session()->regenerate();
@@ -30,7 +31,7 @@ class LoginController extends Controller
         }
 
         // Failed Login
-        return back()->with('error', 'Username atau password salah')->withInput();
+        return back()->with('error', 'Email atau password salah')->withInput();
     }
 
     public function logout(Request $request)
