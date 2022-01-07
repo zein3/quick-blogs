@@ -8,6 +8,7 @@ use App\Http\Controllers\Auth\RegisterController;
 
 
 Route::get('/', [ArticleController::class, 'index'])->name('index');
+Route::get('/search', [ArticleController::class, 'search'])->name('search');
 Route::get('/article/{article:slug}', [ArticleController::class, 'show'])->name('article');
 
 

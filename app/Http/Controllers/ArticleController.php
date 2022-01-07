@@ -14,6 +14,17 @@ class ArticleController extends Controller
         ]);
     }
 
+    public function search(Request $request)
+    {
+        return view('article.index', [
+            'articles' => Article::filter([
+                'search' => $request->input('search'),
+                'category' => $request->input('category'),
+                'author' => $request->input('author')
+            ])->published()->paginate(5)
+        ]);
+    }
+
     public function show(Article $article)
     {
         return view('article.show', [
