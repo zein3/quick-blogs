@@ -8,6 +8,20 @@
         <x-link/>
     </head> 
     <body>
+        @if(session('notification'))
+            <div class="absolute inset-x-0 flex top-10 cursor-pointer" onclick="this.remove()">
+                <div class="m-auto">
+                    <div class="p-3 bg-white border border-gray-300 rounded-lg shadow-lg">
+                        <div class="flex flex-row">
+                            <div class="ml-2 mr-3">
+                                <span>{{ session('notification') }}</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        @endif
+
         <header class="w-10/12 py-6 mx-auto border-b">
             <div class="flex justify-between">
                 <h1>Quick</h1>

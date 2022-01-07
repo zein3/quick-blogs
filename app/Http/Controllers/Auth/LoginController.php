@@ -27,7 +27,7 @@ class LoginController extends Controller
         {
             // Successful Login
             $request->session()->regenerate();
-            return redirect()->route('index');
+            return redirect()->route('index')->with('notification', 'Berhasil masuk');
         }
 
         // Failed Login
@@ -40,6 +40,6 @@ class LoginController extends Controller
         $request->session()->invalidate();
         $request->session()->regenerateToken();
 
-        return redirect()->route('index');
+        return redirect()->route('index')->with('notification', 'Berhasil keluar');
     }
 }
