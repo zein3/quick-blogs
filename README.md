@@ -28,17 +28,19 @@ php artisan key:generate --ansi
 
 5. Configure database
 
-6. Migrate the database
+6. Configure mail driver
+
+7. Migrate the database
 ```bash
 php artisan migrate
 ```
 
-7. Link storage
+8. Link storage
 ```bash
 php artisan storage:link
 ```
 
-8. Start dev server
+9. Start dev server
 ```bash
 php artisan serve
 ```

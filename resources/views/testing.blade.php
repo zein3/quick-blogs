@@ -6,4 +6,8 @@
         <input type="file" name="image" accept="image/*">
         <button type="submit">submit</button>
     </form>
+    <form action="/email/verification-notification" method="POST">
+        @csrf
+        <button type="submit">Send email verification</button>
+    </form>
 @endsection

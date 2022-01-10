@@ -5,6 +5,7 @@ use App\Http\Controllers\ArticleController;
 use App\Http\Controllers\Dashboard\DashboardController;
 use App\Http\Controllers\Auth\LoginController;
 use App\Http\Controllers\Auth\RegisterController;
+use App\Http\Controllers\Auth\EmailVerificationController;
 
 
 Route::get('/', [ArticleController::class, 'index'])->name('index');
@@ -20,8 +21,20 @@ Route::get('/register', [RegisterController::class, 'index'])->name('register')-
 Route::post('/register', [RegisterController::class, 'register']);
 
 
+Route::group(['prefix' => 'email', 'middleware' => 'auth'], function() {
+    Route::get('verify', [EmailVerificationController::class, 'verifyEmail'])
+        ->name('verification.notice');
+    Route::get('verify/{id}/{hash}', [EmailVerificationController::class, 'verificationHandler'])
+        ->middleware('signed')
+        ->name('verification.verify');
+    Route::post('verification-notification', [EmailVerificationController::class, 'resendEmail'])
+        ->middleware('throttle:6,1')
+        ->name('verification.send');
+});
+
+
 Route::group(['prefix' => 'dashboard', 'middleware' => 'auth'], function() {
-    Route::get('/', [DashboardController::class, 'index']);
+    Route::get('/', [DashboardController::class, 'index'])->name('dashboard');
 });
 
 if (env('APP_DEBUG') == 'true') {

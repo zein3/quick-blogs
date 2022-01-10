@@ -29,6 +29,7 @@ class RegisterController extends Controller
         $attributes['password'] = Hash::make($attributes['password']);
 
         $user = User::create($attributes);
+        $user->sendEmailVerificationNotification();
         Auth::login($user);
 
         return redirect()->route('index')->with('notification', 'berhasil membuat akun');
