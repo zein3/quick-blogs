@@ -23,7 +23,7 @@ cp .env.example .env
 
 4. Generate app key
 ```bash
-php artisan key:generate
+php artisan key:generate --ansi
 ```
 
 5. Configure database
