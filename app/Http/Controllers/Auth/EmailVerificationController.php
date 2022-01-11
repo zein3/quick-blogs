@@ -8,20 +8,20 @@ use Illuminate\Foundation\Auth\EmailVerificationRequest;
 
 class EmailVerificationController extends Controller
 {
-    public function verifyEmail()
+    public function show()
     {
         return 'TODO';
-        return view('dashboard.verify-email');
+        return view('auth.verify-email');
     }
 
-    public function verificationHandler(EmailVerificationRequest $request)
+    public function verify(EmailVerificationRequest $request)
     {
         $request->fulfill();
 
         return redirect()->route('dashboard')->with('notification', 'Email has been verified!');
     }
 
-    public function resendEmail(Request $request)
+    public function send(Request $request)
     {
         $request->user()->sendEmailVerificationNotification();
 

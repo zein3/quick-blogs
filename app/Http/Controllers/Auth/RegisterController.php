@@ -32,6 +32,6 @@ class RegisterController extends Controller
         $user->sendEmailVerificationNotification();
         Auth::login($user);
 
-        return redirect()->route('index')->with('notification', 'berhasil membuat akun');
+        return redirect()->route('dashboard')->with('notification', 'berhasil membuat akun');
     }
 }
