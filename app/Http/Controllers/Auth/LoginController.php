@@ -31,7 +31,7 @@ class LoginController extends Controller
         }
 
         // Failed Login
-        return back()->with('error', 'Email atau password salah')->withInput();
+        return back()->withErrors(['error' => 'Email atau password salah'])->withInput();
     }
 
     public function logout(Request $request)

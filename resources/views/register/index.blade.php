@@ -10,9 +10,9 @@
                 <h2 class="mt-6 text-center text-3xl font-extrabold text-gray-900">
                     Register and be useful to others
                 </h2>
-                @if(session('error'))
-                    <x-alert :message="session('error')" />
-                @endif
+                @foreach($errors->all() as $message)
+                    <x-alert :message="$message" />
+                @endforeach
             </div>
             <div class="px-8 pt-6 pb-8 mb-4 flex flex-col my-2">
                 <div class="-mx-3 md:flex mb-6">
