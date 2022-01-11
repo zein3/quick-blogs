@@ -9,9 +9,6 @@
             </h2>
         </div>
 
-        @if(session('error'))
-            <x-alert :message="session('error')" />
-        @endif
         @foreach($errors->all() as $message)
             <x-alert :message="$message" />
         @endforeach
