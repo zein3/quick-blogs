@@ -59,7 +59,7 @@
                 @endauth
             </div>
         </header>
-        <main class="my-5 w-10/12 mx-auto">
+        <main class="container md:w-10/12 my-5 mx-auto">
 
             @yield('body')
 
