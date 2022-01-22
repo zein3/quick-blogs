@@ -27,7 +27,7 @@
                 <a href="/" class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round"
                         stroke-linejoin="round" stroke-width="2"
-                        class="w-10 h-10 text-white p-2 bg-red-500 rounded-full" viewBox="0 0 24 24">
+                        class="w-10 h-10 text-white p-2 bg-blue-500 rounded-full" viewBox="0 0 24 24">
                         <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
                     </svg>
                     <span class="ml-3 text-xl">Quick</span>
@@ -41,7 +41,7 @@
                 @guest
                 <ul class="flex gap-x-2">
                     <li><a class="px-4 py-3 border" href="/register">Daftar</a></li>
-                    <li><a class="px-4 py-3 bg-red-500" href="/login">Masuk</a></li>
+                    <li><a class="px-4 py-3 bg-blue-500" href="/login">Masuk</a></li>
                 </ul>
                 @endguest
                 @auth
@@ -59,42 +59,9 @@
                 @endauth
             </div>
         </header>
-        <main>
+        <main class="my-5 w-10/12 mx-auto">
 
             @yield('body')
-            <div class="w-10/12 mx-auto py-4 bg-gray-300">
-                <ul class="px-20 flex justify-between">
-                    <li><a class="flex flex-col place-items-center" href="">
-                            <i class="fas fa-school fa-2x p-5 bg-blue-500 rounded-md"></i>
-                            Kampus
-                        </a></li>
-                    <li><a class="flex flex-col place-items-center" href="">
-                            <i class="fas fa-graduation-cap fa-2x p-5 bg-blue-500 rounded-md"></i>
-                            Jurusan
-                        </a></li>
-                    <li><a class="flex flex-col place-items-center" href="">
-                            <i class="fas fa-briefcase fa-2x p-5 bg-blue-500 rounded-md"></i>
-                            Karir
-                        </a></li>
-                    <li><a class="flex flex-col place-items-center" href="">
-                            <i class="fas fa-award fa-2x p-5 bg-blue-500 rounded-md"></i>
-                            Beasiswa
-                        </a></li>
-                    <li><a class="flex flex-col place-items-center" href="">
-                            <i class="fas fa-diagnoses fa-2x p-5 bg-blue-500 rounded-md"></i>
-                            Uji Potensi
-                        </a></li>
-                    <li><a class="flex flex-col place-items-center" href="">
-                            <i class="far fa-handshake fa-2x p-5 bg-blue-500 rounded-md"></i>
-                            Mitra
-                        </a></li>
-                    <li><a class="flex flex-col place-items-center" href="">
-                            <i class="fas fa-book-reader fa-2x p-5 bg-blue-500 rounded-md"></i>
-                            Belajar
-                        </a></li>
-                </ul>
-            </div>
-            
 
         </main>
         <footer class="text-gray-600 body-font">
@@ -158,10 +125,10 @@
                             <div class="relative w-40 sm:w-auto xl:mr-4 lg:mr-0 sm:mr-4 mr-2">
                                 <label for="footer-field" class="leading-7 text-sm text-gray-600">Placeholder</label>
                                 <input type="text" id="footer-field" name="footer-field"
-                                    class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:bg-transparent focus:ring-2 focus:ring-red-200 focus:border-red-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                                    class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:bg-transparent focus:ring-2 focus:ring-blue-200 focus:border-blue-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
                             </div>
                             <button
-                                class="lg:mt-2 xl:mt-0 flex-shrink-0 inline-flex text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded">Button</button>
+                                class="lg:mt-2 xl:mt-0 flex-shrink-0 inline-flex text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded">Button</button>
                         </div>
                         <p class="text-gray-500 text-sm mt-2 md:text-left text-center">Bitters chicharrones fanny pack
                             <br class="lg:block hidden">waistcoat green juice
