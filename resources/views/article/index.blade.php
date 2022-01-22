@@ -9,45 +9,164 @@
         @endforeach
     @else
         <div class="py-4 bg-gray-300">
-                <ul class="px-20 flex justify-between">
-                    <li><a class="flex flex-col place-items-center" href="">
-                            <i class="fas fa-school fa-2x p-5 bg-blue-500 rounded-md"></i>
-                            Kampus
-                        </a></li>
-                    <li><a class="flex flex-col place-items-center" href="">
-                            <i class="fas fa-graduation-cap fa-2x p-5 bg-blue-500 rounded-md"></i>
-                            Jurusan
-                        </a></li>
-                    <li><a class="flex flex-col place-items-center" href="">
-                            <i class="fas fa-briefcase fa-2x p-5 bg-blue-500 rounded-md"></i>
-                            Karir
-                        </a></li>
-                    <li><a class="flex flex-col place-items-center" href="">
-                            <i class="fas fa-award fa-2x p-5 bg-blue-500 rounded-md"></i>
-                            Beasiswa
-                        </a></li>
-                    <li><a class="flex flex-col place-items-center" href="">
-                            <i class="fas fa-diagnoses fa-2x p-5 bg-blue-500 rounded-md"></i>
-                            Uji Potensi
-                        </a></li>
-                    <li><a class="flex flex-col place-items-center" href="">
-                            <i class="far fa-handshake fa-2x p-5 bg-blue-500 rounded-md"></i>
-                            Mitra
-                        </a></li>
-                    <li><a class="flex flex-col place-items-center" href="">
-                            <i class="fas fa-book-reader fa-2x p-5 bg-blue-500 rounded-md"></i>
-                            Belajar
-                        </a></li>
-                </ul>
+            <ul class="px-20 flex justify-between">
+                <li><a class="flex flex-col place-items-center" href="">
+                        <i class="fas fa-school fa-2x p-5 bg-blue-500 rounded-md"></i>
+                        Kampus
+                    </a></li>
+                <li><a class="flex flex-col place-items-center" href="">
+                        <i class="fas fa-graduation-cap fa-2x p-5 bg-blue-500 rounded-md"></i>
+                        Jurusan
+                    </a></li>
+                <li><a class="flex flex-col place-items-center" href="">
+                        <i class="fas fa-briefcase fa-2x p-5 bg-blue-500 rounded-md"></i>
+                        Karir
+                    </a></li>
+                <li><a class="flex flex-col place-items-center" href="">
+                        <i class="fas fa-award fa-2x p-5 bg-blue-500 rounded-md"></i>
+                        Beasiswa
+                    </a></li>
+                <li><a class="flex flex-col place-items-center" href="">
+                        <i class="fas fa-diagnoses fa-2x p-5 bg-blue-500 rounded-md"></i>
+                        Uji Potensi
+                    </a></li>
+                <li><a class="flex flex-col place-items-center" href="">
+                        <i class="far fa-handshake fa-2x p-5 bg-blue-500 rounded-md"></i>
+                        Mitra
+                    </a></li>
+                <li><a class="flex flex-col place-items-center" href="">
+                        <i class="fas fa-book-reader fa-2x p-5 bg-blue-500 rounded-md"></i>
+                        Belajar
+                    </a></li>
+            </ul>
+        </div>
+
+        <section class="text-gray-600 body-font">
+            <div class="container px-5 py-24 mx-auto">
+                <div class="flex flex-wrap -m-4">
+                    <div class="p-3 md:w-1/4">
+                        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                            <img class="lg:h-48 md:h-36 w-full object-cover object-center"
+                                src="https://dummyimage.com/720x400" alt="blog">
+                            <div class="p-4">
+                                <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Universitas Indonesia</h1>
+                                <p class="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings
+                                    jianbing microdosing tousled waistcoat.</p>
+                                <div class="flex items-center flex-wrap">
+                                    <span
+                                        class="text-gray-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                                        <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none"
+                                            stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                                            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                                            <circle cx="12" cy="12" r="3"></circle>
+                                        </svg>1.2K
+                                    </span>
+                                    <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+                                        <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none"
+                                            stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                                            <path
+                                                d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
+                                            </path>
+                                        </svg>6
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-3 md:w-1/4">
+                        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                            <img class="lg:h-48 md:h-36 w-full object-cover object-center"
+                                src="https://dummyimage.com/721x401" alt="blog">
+                            <div class="p-4">
+                                <h1 class="title-font text-lg font-medium text-gray-900 mb-3">STT Terpadu Nurul Fikri</h1>
+                                <p class="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings
+                                    jianbing microdosing tousled waistcoat.</p>
+                                <div class="flex items-center flex-wrap">
+                                    <span
+                                        class="text-gray-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                                        <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none"
+                                            stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                                            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                                            <circle cx="12" cy="12" r="3"></circle>
+                                        </svg>1.2K
+                                    </span>
+                                    <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+                                        <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none"
+                                            stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                                            <path
+                                                d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
+                                            </path>
+                                        </svg>6
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-3 md:w-1/4">
+                        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                            <img class="lg:h-48 md:h-36 w-full object-cover object-center"
+                                src="https://dummyimage.com/722x402" alt="blog">
+                            <div class="p-4">
+                                <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Politeknik Statistika</h1>
+                                <p class="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings
+                                    jianbing microdosing tousled waistcoat.</p>
+                                <div class="flex items-center flex-wrap">
+                                    <span
+                                        class="text-gray-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                                        <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none"
+                                            stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                                            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                                            <circle cx="12" cy="12" r="3"></circle>
+                                        </svg>1.2K
+                                    </span>
+                                    <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+                                        <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none"
+                                            stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                                            <path
+                                                d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
+                                            </path>
+                                        </svg>6
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-3 md:w-1/4">
+                        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                            <img class="lg:h-48 md:h-36 w-full object-cover object-center"
+                                src="https://dummyimage.com/722x403" alt="blog">
+                            <div class="p-4">
+                                <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Institut Pertanian Bogor</h1>
+                                <p class="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings
+                                    jianbing microdosing tousled waistcoat.</p>
+                                <div class="flex items-center flex-wrap">
+                                    <span
+                                        class="text-gray-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                                        <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none"
+                                            stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                                            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                                            <circle cx="12" cy="12" r="3"></circle>
+                                        </svg>1.2K
+                                    </span>
+                                    <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+                                        <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none"
+                                            stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                                            <path
+                                                d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
+                                            </path>
+                                        </svg>6
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
+        </section>
 
-
-        
-        
-        
         <section class="bg-white dark:bg-gray-900">
             <div class="container px-6 py-10 mx-auto">
-                <h1 class="text-3xl font-semibold text-gray-800 capitalize lg:text-4xl dark:text-white">explore our <br> awesome <span class="underline decoration-blue-500">Components</span></h1>
+                <h1 class="text-3xl font-semibold text-gray-800 capitalize lg:text-4xl dark:text-white">explore our <br> awesome <span class="underline decoration-blue-500">features</span></h1>
                 
                 <p class="mt-4 text-gray-500 xl:mt-6 dark:text-gray-300">
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum quam voluptatibus
@@ -62,7 +181,7 @@
                             </svg>
                         </span>
 
-                        <h1 class="text-2xl font-semibold text-gray-700 capitalize dark:text-white">elegant Dark Mode</h1>
+                        <h1 class="text-2xl font-semibold text-gray-700 dark:text-white">Info Terupdate dan Terlengkap</h1>
 
                         <p class="text-gray-500 dark:text-gray-300">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod dignissimos vel non corrupti doloribus voluptatum eveniet
@@ -82,7 +201,7 @@
                             </svg>
                         </span>
 
-                        <h1 class="text-2xl font-semibold text-gray-700 capitalize dark:text-white">Easy to customiztions</h1>
+                        <h1 class="text-2xl font-semibold text-gray-700 dark:text-white">Gratis dan Mudah Diakses</h1>
 
                         <p class="text-gray-500 dark:text-gray-300">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod dignissimos vel non corrupti doloribus voluptatum eveniet
@@ -102,7 +221,7 @@
                             </svg>
                         </span>
 
-                        <h1 class="text-2xl font-semibold text-gray-700 capitalize dark:text-white">Simple & clean designs</h1>
+                        <h1 class="text-2xl font-semibold text-gray-700 dark:text-white">Konten Belajar Lengkap dan Interaktif</h1>
 
                         <p class="text-gray-500 dark:text-gray-300">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod dignissimos vel non corrupti doloribus voluptatum eveniet
