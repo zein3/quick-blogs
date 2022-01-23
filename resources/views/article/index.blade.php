@@ -26,9 +26,9 @@
                                 </defs>
                                 <rect fill="url(#e77df901-b9d7-4b9b-822e-16b2d410795b)" width="52" height="24"></rect>
                             </svg>
-                            <span class="relative">The</span>
+                            <span class="relative">Gapai</span>
                         </span>
-                        quick, brown fox jumps over a lazy dog
+                        mimpimu dengan program beasiswa dari Quick!
                     </h2>
                     <p class="text-base text-gray-700 md:text-lg">
                         Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque rem
@@ -457,8 +457,7 @@
                     Artikel Unggulan<br class="hidden md:block" />
                     Rekomendasi dari Kami
                 </span>
-                <div
-                    class="h-1 ml-auto duration-300 origin-left transform bg-blue-400 scale-x-30 group-hover:scale-x-100">
+                <div class="h-1 ml-auto duration-300 origin-left transform bg-blue-400 scale-x-30 group-hover:scale-x-100">
                 </div>
             </h2>
             <p class="text-gray-700 lg:text-sm lg:max-w-md">
@@ -534,8 +533,11 @@
     </div>
 
 
+    
+
+
     <section class="bg-white dark:bg-gray-900">
-        <div class="container px-6 py-10 mx-auto">
+        <div class="container px-4 py-10 mx-auto">
             <div class="xl:flex xl:items-center xL:-mx-4">
                 <div class="xl:w-1/2 xl:mx-4">
                     <h1 class="text-3xl font-semibold text-gray-800 capitalize lg:text-4xl dark:text-white">Our Team
