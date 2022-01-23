@@ -10,14 +10,14 @@
     @else
 
         <div class="bg-gray-50 px-4 py-5 mx-auto shadow sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
-            <div class="grid grid-cols-2 gap-5 row-gap-5 sm:grid-cols-3 lg:grid-cols-6">
+            <div class="grid grid-cols-3 gap-5 row-gap-5 lg:grid-cols-6">
                 <div class="text-center">
                     <a href="">
                         <div
                             class="flex items-center justify-center w-10 h-10 mx-auto mb-2 rounded-full bg-blue-100 sm:w-12 sm:h-12 relative overflow-hidden transition duration-300 transform hover:-translate-y-1 hover:shadow-xl">
                             <i class="fas fa-school"></i>
                         </div>
-                        <h6 class="mb-2 text-sm font-bold leading-5 tracking-wider uppercase">
+                        <h6 class="mb-2 text-sm font-bold leading-5 tracking-wider">
                             Kampus
                         </h6>
                     </a>
@@ -28,7 +28,7 @@
                             class="flex items-center justify-center w-10 h-10 mx-auto mb-2 rounded-full bg-blue-100 sm:w-12 sm:h-12 relative overflow-hidden transition duration-300 transform hover:-translate-y-1 hover:shadow-xl">
                             <i class="fas fa-graduation-cap"></i>
                         </div>
-                        <h6 class="mb-2 text-sm font-bold leading-5 tracking-wider uppercase">
+                        <h6 class="mb-2 text-sm font-bold leading-5 tracking-wider">
                             Jurusan
                         </h6>
                     </a>
@@ -39,7 +39,7 @@
                             class="flex items-center justify-center w-10 h-10 mx-auto mb-2 rounded-full bg-blue-100 sm:w-12 sm:h-12 relative overflow-hidden transition duration-300 transform hover:-translate-y-1 hover:shadow-xl">
                             <i class="fas fa-briefcase"></i>
                         </div>
-                        <h6 class="mb-2 text-sm font-bold leading-5 tracking-wider uppercase">
+                        <h6 class="mb-2 text-sm font-bold leading-5 tracking-wider">
                             Karir
                         </h6>
                     </a>
@@ -50,7 +50,7 @@
                             class="flex items-center justify-center w-10 h-10 mx-auto mb-2 rounded-full bg-blue-100 sm:w-12 sm:h-12 relative overflow-hidden transition duration-300 transform hover:-translate-y-1 hover:shadow-xl">
                             <i class="fas fa-award"></i>
                         </div>
-                        <h6 class="mb-2 text-sm font-bold leading-5 tracking-wider uppercase">
+                        <h6 class="mb-2 text-sm font-bold leading-5 tracking-wider">
                             Beasiswa
                         </h6>
                     </a>
@@ -61,7 +61,7 @@
                             class="flex items-center justify-center w-10 h-10 mx-auto mb-2 rounded-full bg-blue-100 sm:w-12 sm:h-12 relative overflow-hidden transition duration-300 transform hover:-translate-y-1 hover:shadow-xl">
                             <i class="fas fa-diagnoses"></i>
                         </div>
-                        <h6 class="mb-2 text-sm font-bold leading-5 tracking-wider uppercase">
+                        <h6 class="mb-2 text-sm font-bold leading-5 tracking-wider">
                             Uji Potensi
                         </h6>
                     </a>
@@ -72,7 +72,7 @@
                             class="flex items-center justify-center w-10 h-10 mx-auto mb-2 rounded-full bg-blue-100 sm:w-12 sm:h-12 relative overflow-hidden transition duration-300 transform hover:-translate-y-1 hover:shadow-xl">
                             <i class="far fa-handshake"></i>
                         </div>
-                        <h6 class="mb-2 text-sm font-bold leading-5 tracking-wider uppercase">
+                        <h6 class="mb-2 text-sm font-bold leading-5 tracking-wider">
                             Mitra
                         </h6>
                     </a>
@@ -86,120 +86,128 @@
                 <h1 class="text-3xl mb-8 font-semibold text-gray-800 capitalize lg:text-3xl dark:text-white">Kampus Rekomendasi Kami</h1>
                 <div class="flex flex-wrap -m-4">
                     <div class="p-3 md:w-1/2 lg:w-1/4">
-                        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                            <img class="lg:h-48 md:h-36 w-full object-cover object-center"
-                                src="https://dummyimage.com/720x400" alt="blog">
-                            <div class="p-4">
-                                <h1 class="title-font text-lg font-medium text-gray-900 mb-2">Universitas Indonesia</h1>
-                                <p class="text-base mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings
-                                    jianbing microdosing tousled waistcoat.</p>
-                                <div class="flex items-center flex-wrap">
-                                    <span
-                                        class="text-gray-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
-                                        <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none"
-                                            stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
-                                            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
-                                            <circle cx="12" cy="12" r="3"></circle>
-                                        </svg>1.2K
-                                    </span>
-                                    <span class="text-gray-400 inline-flex items-center leading-none text-sm">
-                                        <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none"
-                                            stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
-                                            <path
-                                                d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
-                                            </path>
-                                        </svg>6
-                                    </span>
+                        <a href="">
+                            <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden hover:shadow">
+                                <img class="lg:h-48 md:h-36 w-full object-cover object-center"
+                                    src="https://dummyimage.com/720x400" alt="blog">
+                                <div class="p-4">
+                                    <h1 class="title-font text-lg font-medium text-gray-900 mb-2">Universitas Indonesia</h1>
+                                    <p class="text-base mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings
+                                        jianbing microdosing tousled waistcoat.</p>
+                                    <div class="flex items-center flex-wrap">
+                                        <span
+                                            class="text-gray-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                                            <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none"
+                                                stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                                                <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                                                <circle cx="12" cy="12" r="3"></circle>
+                                            </svg>1.2K
+                                        </span>
+                                        <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+                                            <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none"
+                                                stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                                                <path
+                                                    d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
+                                                </path>
+                                            </svg>6
+                                        </span>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <div class="p-3 md:w-1/2 lg:w-1/4">
-                        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                            <img class="lg:h-48 md:h-36 w-full object-cover object-center"
-                                src="https://dummyimage.com/721x401" alt="blog">
-                            <div class="p-4">
-                                <h1 class="title-font text-lg font-medium text-gray-900 mb-2">STT Terpadu Nurul Fikri</h1>
-                                <p class="text-base mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings
-                                    jianbing microdosing tousled waistcoat.</p>
-                                <div class="flex items-center flex-wrap">
-                                    <span
-                                        class="text-gray-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
-                                        <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none"
-                                            stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
-                                            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
-                                            <circle cx="12" cy="12" r="3"></circle>
-                                        </svg>1.2K
-                                    </span>
-                                    <span class="text-gray-400 inline-flex items-center leading-none text-sm">
-                                        <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none"
-                                            stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
-                                            <path
-                                                d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
-                                            </path>
-                                        </svg>6
-                                    </span>
+                        <a href="">
+                            <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden hover:shadow">
+                                <img class="lg:h-48 md:h-36 w-full object-cover object-center"
+                                    src="https://dummyimage.com/721x401" alt="blog">
+                                <div class="p-4">
+                                    <h1 class="title-font text-lg font-medium text-gray-900 mb-2">STT Terpadu Nurul Fikri</h1>
+                                    <p class="text-base mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings
+                                        jianbing microdosing tousled waistcoat.</p>
+                                    <div class="flex items-center flex-wrap">
+                                        <span
+                                            class="text-gray-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                                            <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none"
+                                                stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                                                <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                                                <circle cx="12" cy="12" r="3"></circle>
+                                            </svg>1.2K
+                                        </span>
+                                        <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+                                            <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none"
+                                                stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                                                <path
+                                                    d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
+                                                </path>
+                                            </svg>6
+                                        </span>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <div class="p-3 md:w-1/2 lg:w-1/4">
-                        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                            <img class="lg:h-48 md:h-36 w-full object-cover object-center"
-                                src="https://dummyimage.com/722x402" alt="blog">
-                            <div class="p-4">
-                                <h1 class="title-font text-lg font-medium text-gray-900 mb-2">Politeknik Statistika</h1>
-                                <p class="text-base mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings
-                                    jianbing microdosing tousled waistcoat.</p>
-                                <div class="flex items-center flex-wrap">
-                                    <span
-                                        class="text-gray-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
-                                        <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none"
-                                            stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
-                                            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
-                                            <circle cx="12" cy="12" r="3"></circle>
-                                        </svg>1.2K
-                                    </span>
-                                    <span class="text-gray-400 inline-flex items-center leading-none text-sm">
-                                        <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none"
-                                            stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
-                                            <path
-                                                d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
-                                            </path>
-                                        </svg>6
-                                    </span>
+                        <a href="">
+                            <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden hover:shadow">
+                                <img class="lg:h-48 md:h-36 w-full object-cover object-center"
+                                    src="https://dummyimage.com/722x402" alt="blog">
+                                <div class="p-4">
+                                    <h1 class="title-font text-lg font-medium text-gray-900 mb-2">Politeknik Statistika</h1>
+                                    <p class="text-base mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings
+                                        jianbing microdosing tousled waistcoat.</p>
+                                    <div class="flex items-center flex-wrap">
+                                        <span
+                                            class="text-gray-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                                            <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none"
+                                                stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                                                <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                                                <circle cx="12" cy="12" r="3"></circle>
+                                            </svg>1.2K
+                                        </span>
+                                        <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+                                            <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none"
+                                                stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                                                <path
+                                                    d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
+                                                </path>
+                                            </svg>6
+                                        </span>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <div class="p-3 md:w-1/2 lg:w-1/4">
-                        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                            <img class="lg:h-48 md:h-36 w-full object-cover object-center"
-                                src="https://dummyimage.com/722x403" alt="blog">
-                            <div class="p-4">
-                                <h1 class="title-font text-lg font-medium text-gray-900 mb-2">Institut Pertanian Bogor</h1>
-                                <p class="text-base mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings
-                                    jianbing microdosing tousled waistcoat.</p>
-                                <div class="flex items-center flex-wrap">
-                                    <span
-                                        class="text-gray-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
-                                        <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none"
-                                            stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
-                                            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
-                                            <circle cx="12" cy="12" r="3"></circle>
-                                        </svg>1.2K
-                                    </span>
-                                    <span class="text-gray-400 inline-flex items-center leading-none text-sm">
-                                        <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none"
-                                            stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
-                                            <path
-                                                d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
-                                            </path>
-                                        </svg>6
-                                    </span>
+                        <a href="">
+                            <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden hover:shadow">
+                                <img class="lg:h-48 md:h-36 w-full object-cover object-center"
+                                    src="https://dummyimage.com/722x403" alt="blog">
+                                <div class="p-4">
+                                    <h1 class="title-font text-lg font-medium text-gray-900 mb-2">Institut Pertanian Bogor</h1>
+                                    <p class="text-base mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings
+                                        jianbing microdosing tousled waistcoat.</p>
+                                    <div class="flex items-center flex-wrap">
+                                        <span
+                                            class="text-gray-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                                            <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none"
+                                                stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                                                <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                                                <circle cx="12" cy="12" r="3"></circle>
+                                            </svg>1.2K
+                                        </span>
+                                        <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+                                            <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none"
+                                                stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                                                <path
+                                                    d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
+                                                </path>
+                                            </svg>6
+                                        </span>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -211,122 +219,130 @@
                 <h1 class="text-3xl mb-8 font-semibold text-gray-800 capitalize lg:text-3xl dark:text-white">Jurusan Rekomendasi Kami</h1>
                 <div class="flex flex-wrap -m-4">
                     <div class="p-3 md:w-1/2 lg:w-1/4">
-                        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                            <img class="lg:h-48 md:h-36 w-full object-cover object-center"
-                                src="https://dummyimage.com/720x400" alt="blog">
-                            <div class="p-4">
-                                <h1 class="title-font text-lg font-medium text-gray-900 mb-2">Hubungan Internasional</h1>
-                                <p class="text-sm mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings
-                                    jianbing microdosing tousled waistcoat.</p>
-                                <div class="flex items-center flex-wrap">
-                                    <span
-                                        class="text-gray-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
-                                        <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none"
-                                            stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
-                                            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
-                                            <circle cx="12" cy="12" r="3"></circle>
-                                        </svg>1.2K
-                                    </span>
-                                    <span class="text-gray-400 inline-flex items-center leading-none text-sm">
-                                        <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none"
-                                            stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
-                                            <path
-                                                d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
-                                            </path>
-                                        </svg>6
-                                    </span>
+                        <a href="">
+                            <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden hover:shadow">
+                                <img class="lg:h-48 md:h-36 w-full object-cover object-center"
+                                    src="https://dummyimage.com/720x400" alt="blog">
+                                <div class="p-4">
+                                    <h1 class="title-font text-lg font-medium text-gray-900 mb-2">Hubungan Internasional</h1>
+                                    <p class="text-sm mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings
+                                        jianbing microdosing tousled waistcoat.</p>
+                                    <div class="flex items-center flex-wrap">
+                                        <span
+                                            class="text-gray-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                                            <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none"
+                                                stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                                                <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                                                <circle cx="12" cy="12" r="3"></circle>
+                                            </svg>1.2K
+                                        </span>
+                                        <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+                                            <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none"
+                                                stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                                                <path
+                                                    d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
+                                                </path>
+                                            </svg>6
+                                        </span>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <div class="p-3 md:w-1/2 lg:w-1/4">
-                        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                            <img class="lg:h-48 md:h-36 w-full object-cover object-center"
-                                src="https://dummyimage.com/721x401" alt="blog">
-                            <div class="p-4">
-                                <h1 class="title-font text-lg font-medium text-gray-900 mb-2">Ilmu Administrasi
-                                </h1>
-                                <p class="text-sm mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings
-                                    jianbing microdosing tousled waistcoat.</p>
-                                <div class="flex items-center flex-wrap">
-                                    <span
-                                        class="text-gray-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
-                                        <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none"
-                                            stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
-                                            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
-                                            <circle cx="12" cy="12" r="3"></circle>
-                                        </svg>1.2K
-                                    </span>
-                                    <span class="text-gray-400 inline-flex items-center leading-none text-sm">
-                                        <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none"
-                                            stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
-                                            <path
-                                                d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
-                                            </path>
-                                        </svg>6
-                                    </span>
+                        <a href="">
+                            <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden hover:shadow">
+                                <img class="lg:h-48 md:h-36 w-full object-cover object-center"
+                                    src="https://dummyimage.com/721x401" alt="blog">
+                                <div class="p-4">
+                                    <h1 class="title-font text-lg font-medium text-gray-900 mb-2">Ilmu Administrasi
+                                    </h1>
+                                    <p class="text-sm mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings
+                                        jianbing microdosing tousled waistcoat.</p>
+                                    <div class="flex items-center flex-wrap">
+                                        <span
+                                            class="text-gray-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                                            <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none"
+                                                stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                                                <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                                                <circle cx="12" cy="12" r="3"></circle>
+                                            </svg>1.2K
+                                        </span>
+                                        <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+                                            <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none"
+                                                stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                                                <path
+                                                    d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
+                                                </path>
+                                            </svg>6
+                                        </span>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <div class="p-3 md:w-1/2 lg:w-1/4">
-                        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                            <img class="lg:h-48 md:h-36 w-full object-cover object-center"
-                                src="https://dummyimage.com/722x402" alt="blog">
-                            <div class="p-4">
-                                <h1 class="title-font text-lg font-medium text-gray-900 mb-2">Ekonomi Syariah</h1>
-                                <p class="text-sm mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings
-                                    jianbing microdosing tousled waistcoat.</p>
-                                <div class="flex items-center flex-wrap">
-                                    <span
-                                        class="text-gray-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
-                                        <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none"
-                                            stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
-                                            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
-                                            <circle cx="12" cy="12" r="3"></circle>
-                                        </svg>1.2K
-                                    </span>
-                                    <span class="text-gray-400 inline-flex items-center leading-none text-sm">
-                                        <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none"
-                                            stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
-                                            <path
-                                                d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
-                                            </path>
-                                        </svg>6
-                                    </span>
+                        <a href="">
+                            <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden hover:shadow">
+                                <img class="lg:h-48 md:h-36 w-full object-cover object-center"
+                                    src="https://dummyimage.com/722x402" alt="blog">
+                                <div class="p-4">
+                                    <h1 class="title-font text-lg font-medium text-gray-900 mb-2">Ekonomi Syariah</h1>
+                                    <p class="text-sm mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings
+                                        jianbing microdosing tousled waistcoat.</p>
+                                    <div class="flex items-center flex-wrap">
+                                        <span
+                                            class="text-gray-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                                            <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none"
+                                                stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                                                <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                                                <circle cx="12" cy="12" r="3"></circle>
+                                            </svg>1.2K
+                                        </span>
+                                        <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+                                            <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none"
+                                                stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                                                <path
+                                                    d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
+                                                </path>
+                                            </svg>6
+                                        </span>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <div class="p-3 md:w-1/2 lg:w-1/4">
-                        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                            <img class="lg:h-48 md:h-36 w-full object-cover object-center"
-                                src="https://dummyimage.com/722x403" alt="blog">
-                            <div class="p-4">
-                                <h1 class="title-font text-lg font-medium text-gray-900 mb-2">Bisnis Digital
-                                </h1>
-                                <p class="text-sm mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings
-                                    jianbing microdosing tousled waistcoat.</p>
-                                <div class="flex items-center flex-wrap">
-                                    <span
-                                        class="text-gray-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
-                                        <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none"
-                                            stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
-                                            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
-                                            <circle cx="12" cy="12" r="3"></circle>
-                                        </svg>1.2K
-                                    </span>
-                                    <span class="text-gray-400 inline-flex items-center leading-none text-sm">
-                                        <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none"
-                                            stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
-                                            <path
-                                                d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
-                                            </path>
-                                        </svg>6
-                                    </span>
+                        <a href="">
+                            <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden hover:shadow">
+                                <img class="lg:h-48 md:h-36 w-full object-cover object-center"
+                                    src="https://dummyimage.com/722x403" alt="blog">
+                                <div class="p-4">
+                                    <h1 class="title-font text-lg font-medium text-gray-900 mb-2">Bisnis Digital
+                                    </h1>
+                                    <p class="text-sm mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings
+                                        jianbing microdosing tousled waistcoat.</p>
+                                    <div class="flex items-center flex-wrap">
+                                        <span
+                                            class="text-gray-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                                            <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none"
+                                                stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                                                <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                                                <circle cx="12" cy="12" r="3"></circle>
+                                            </svg>1.2K
+                                        </span>
+                                        <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+                                            <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none"
+                                                stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                                                <path
+                                                    d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
+                                                </path>
+                                            </svg>6
+                                        </span>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                 </div>
             </div>
