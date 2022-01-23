@@ -20,7 +20,7 @@ class ArticleFactory extends Factory
             'author_id' => User::factory(),
             'title' => $title,
             'slug' => Str::slug($title, '-'),
-            'thumbnail' => 'https://loremflickr.com/730/300/',
+            'thumbnail' => 'https://dummyimage.com/720x400',
             'body' => $this->faker->paragraph(),
             'approved' => true,
             'published_at' => now()
