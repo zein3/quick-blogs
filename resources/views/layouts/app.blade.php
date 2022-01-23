@@ -22,41 +22,43 @@
             </div>
         @endif
 
-        <header class="w-11/12 mx-auto text-gray-600 body-font border-b">
-            <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-                <a href="/" class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round"
-                        stroke-linejoin="round" stroke-width="2"
-                        class="w-10 h-10 text-white p-2 bg-blue-500 rounded-full" viewBox="0 0 24 24">
-                        <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
-                    </svg>
-                    <span class="ml-3 text-xl">Quick</span>
-                </a>
-                <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
-                    <a class="mr-5 hover:text-gray-900" href="{{ route('search') . '?category=kampus' }}">Kampus</a>
-                    <a class="mr-5 hover:text-gray-900" href="{{ route('search') . '?category=jurusan' }}">Jurusan</a>
-                    <a class="mr-5 hover:text-gray-900" href="{{ route('search') . '?category=karir' }}">Karir</a>
-                    <a class="mr-5 hover:text-gray-900" href="{{ route('search') . '?category=artikel' }}">Artikel</a>
-                </nav>
-                @guest
-                <ul class="flex gap-x-2">
-                    <li><a class="px-4 py-3 border" href="/register">Daftar</a></li>
-                    <li><a class="px-4 py-3 bg-blue-500" href="/login">Masuk</a></li>
-                </ul>
-                @endguest
-                @auth
-                <ul class="flex gap-x-2">
-                    <li>
-                        <form id="logout-form" action="{{ route('logout') }}" method="POST">
-                            @csrf
-                            <a class="px-4 py-3 border" href="" x-data
-                                @click="$event.preventDefault(); document.getElementById('logout-form').submit()">
-                                Keluar
-                            </a>
-                        </form>
-                    </li>
-                </ul>
-                @endauth
+        <header class="md:sticky md:top-0 bg-white text-gray-600 body-font border-b z-50">
+            <div class="w-11/12 mx-auto">
+                <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+                    <a href="/" class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round"
+                            stroke-linejoin="round" stroke-width="2"
+                            class="w-10 h-10 text-white p-2 bg-blue-500 rounded-full" viewBox="0 0 24 24">
+                            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+                        </svg>
+                        <span class="ml-3 text-xl">Quick</span>
+                    </a>
+                    <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
+                        <a class="mr-5 hover:text-gray-900" href="{{ route('search') . '?category=kampus' }}">Kampus</a>
+                        <a class="mr-5 hover:text-gray-900" href="{{ route('search') . '?category=jurusan' }}">Jurusan</a>
+                        <a class="mr-5 hover:text-gray-900" href="{{ route('search') . '?category=karir' }}">Karir</a>
+                        <a class="mr-5 hover:text-gray-900" href="{{ route('search') . '?category=artikel' }}">Artikel</a>
+                    </nav>
+                    @guest
+                    <ul class="flex gap-x-2">
+                        <li><a class="px-4 py-3 border" href="/register">Daftar</a></li>
+                        <li><a class="px-4 py-3 bg-blue-500" href="/login">Masuk</a></li>
+                    </ul>
+                    @endguest
+                    @auth
+                    <ul class="flex gap-x-2">
+                        <li>
+                            <form id="logout-form" action="{{ route('logout') }}" method="POST">
+                                @csrf
+                                <a class="px-4 py-3 border" href="" x-data
+                                    @click="$event.preventDefault(); document.getElementById('logout-form').submit()">
+                                    Keluar
+                                </a>
+                            </form>
+                        </li>
+                    </ul>
+                    @endauth
+                </div>
             </div>
         </header>
         <main class="container md:w-11/12 my-5 mx-auto">
