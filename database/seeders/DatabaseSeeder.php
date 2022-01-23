@@ -29,26 +29,80 @@ class DatabaseSeeder extends Seeder
         DB::statement('SET FOREIGN_KEY_CHECKS = 1');
 
 
-        Article::factory(20)->create();
+        //Article::factory(20)->create();
 
-        Category::create([
+        $kampus = Category::create([
             'name' => 'kampus',
             'slug' => 'kampus'
         ]);
-        Category::create([
+        $jurusan = Category::create([
             'name' => 'jurusan',
             'slug' => 'jurusan'
         ]);
-        Category::create([
+        $karir = Category::create([
             'name' => 'karir',
             'slug' => 'karir'
         ]);
 
-        foreach(Article::all() as $article) {
-            ArticleCategory::factory()->create([
-                'article_id' => $article->id
-            ]);
-        }
+        $ui = Article::factory()->create([
+            'title' => 'Universitas Indonesia'
+        ]);
+        $nurulfikri = Article::factory()->create([
+            'title' => 'STT Terpadu Nurul Fikri'
+        ]);
+        $stis = Article::factory()->create([
+            'title' => 'Politeknik Statistika STIS'
+        ]);
+        $itb = Article::factory()->create([
+            'title' => 'Institut Pertanian Bogor'
+        ]);
+        $hubinter = Article::factory()->create([
+            'title' => 'Hubungan Internasional'
+        ]);
+        $ilmuadmin = Article::factory()->create([
+            'title' => 'Ilmu Administrasi'
+        ]);
+        $ekon = Article::factory()->create([
+            'title' => 'Ekonomi Syariah'
+        ]);
+        $bisnis = Article::factory()->create([
+            'title' => 'Bisnis Digital'
+        ]);
+
+        ArticleCategory::create([
+            'article_id' => $ui->id,
+            'category_id' => $kampus->id
+        ]);
+        ArticleCategory::create([
+            'article_id' => $nurulfikri->id,
+            'category_id' => $kampus->id
+        ]);
+        ArticleCategory::create([
+            'article_id' => $stis->id,
+            'category_id' => $kampus->id
+        ]);
+        ArticleCategory::create([
+            'article_id' => $itb->id,
+            'category_id' => $kampus->id
+        ]);
+
+        ArticleCategory::create([
+            'article_id' => $hubinter->id,
+            'category_id' => $jurusan->id
+        ]);
+        ArticleCategory::create([
+            'article_id' => $ilmuadmin->id,
+            'category_id' => $jurusan->id
+        ]);
+        ArticleCategory::create([
+            'article_id' => $ekon->id,
+            'category_id' => $jurusan->id
+        ]);
+        ArticleCategory::create([
+            'article_id' => $bisnis->id,
+            'category_id' => $jurusan->id
+        ]);
+
 
         User::create([
             'username' => 'test',
