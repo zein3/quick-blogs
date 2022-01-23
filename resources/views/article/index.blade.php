@@ -1,77 +1,115 @@
 @extends('layouts.app')
 
 @section('body')
-
-    <div class="bg-gray-50 px-4 py-5 mx-auto shadow sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
-        <div class="grid grid-cols-3 gap-5 row-gap-5 lg:grid-cols-6">
-            <div class="text-center">
-                <a href="">
-                    <div
-                        class="flex items-center justify-center w-10 h-10 mx-auto mb-2 rounded-full bg-blue-100 sm:w-12 sm:h-12 relative overflow-hidden transition duration-300 transform hover:-translate-y-1 hover:shadow-xl">
-                        <i class="fas fa-school"></i>
+    <div class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
+        <div class="max-w-xl sm:mx-auto lg:max-w-2xl">
+            <div class="flex flex-col mb-16 sm:text-center sm:mb-0">
+                <a href="/" class="mb-6 sm:mx-auto">
+                    <div class="flex items-center justify-center w-12 h-12 rounded-full bg-indigo-50">
+                        <svg class="w-10 h-10 text-blue-400" stroke="currentColor" viewBox="0 0 52 52">
+                            <polygon stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"
+                                points="29 13 14 29 25 29 23 39 38 23 27 23"></polygon>
+                        </svg>
                     </div>
-                    <h6 class="mb-2 text-sm font-bold leading-5 tracking-wider">
-                        Kampus
-                    </h6>
                 </a>
+                <div class="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
+                    <h2
+                        class="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
+                        <span class="relative inline-block">
+                            <svg viewBox="0 0 52 24" fill="currentColor"
+                                class="absolute top-0 left-0 z-0 hidden w-32 -mt-8 -ml-20 text-blue-gray-100 lg:w-32 lg:-ml-28 lg:-mt-10 sm:block">
+                                <defs>
+                                    <pattern id="e77df901-b9d7-4b9b-822e-16b2d410795b" x="0" y="0" width=".135"
+                                        height=".30">
+                                        <circle cx="1" cy="1" r=".7"></circle>
+                                    </pattern>
+                                </defs>
+                                <rect fill="url(#e77df901-b9d7-4b9b-822e-16b2d410795b)" width="52" height="24"></rect>
+                            </svg>
+                            <span class="relative">The</span>
+                        </span>
+                        quick, brown fox jumps over a lazy dog
+                    </h2>
+                    <p class="text-base text-gray-700 md:text-lg">
+                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque rem
+                        aperiam, eaque ipsa quae.
+                    </p>
+                </div>
             </div>
-            <div class="text-center">
-                <a href="">
-                    <div
-                        class="flex items-center justify-center w-10 h-10 mx-auto mb-2 rounded-full bg-blue-100 sm:w-12 sm:h-12 relative overflow-hidden transition duration-300 transform hover:-translate-y-1 hover:shadow-xl">
-                        <i class="fas fa-graduation-cap"></i>
-                    </div>
-                    <h6 class="mb-2 text-sm font-bold leading-5 tracking-wider">
-                        Jurusan
-                    </h6>
-                </a>
-            </div>
-            <div class="text-center">
-                <a href="">
-                    <div
-                        class="flex items-center justify-center w-10 h-10 mx-auto mb-2 rounded-full bg-blue-100 sm:w-12 sm:h-12 relative overflow-hidden transition duration-300 transform hover:-translate-y-1 hover:shadow-xl">
-                        <i class="fas fa-briefcase"></i>
-                    </div>
-                    <h6 class="mb-2 text-sm font-bold leading-5 tracking-wider">
-                        Karir
-                    </h6>
-                </a>
-            </div>
-            <div class="text-center">
-                <a href="">
-                    <div
-                        class="flex items-center justify-center w-10 h-10 mx-auto mb-2 rounded-full bg-blue-100 sm:w-12 sm:h-12 relative overflow-hidden transition duration-300 transform hover:-translate-y-1 hover:shadow-xl">
-                        <i class="fas fa-award"></i>
-                    </div>
-                    <h6 class="mb-2 text-sm font-bold leading-5 tracking-wider">
-                        Beasiswa
-                    </h6>
-                </a>
-            </div>
-            <div class="text-center">
-                <a href="">
-                    <div
-                        class="flex items-center justify-center w-10 h-10 mx-auto mb-2 rounded-full bg-blue-100 sm:w-12 sm:h-12 relative overflow-hidden transition duration-300 transform hover:-translate-y-1 hover:shadow-xl">
-                        <i class="fas fa-diagnoses"></i>
-                    </div>
-                    <h6 class="mb-2 text-sm font-bold leading-5 tracking-wider">
-                        Uji Potensi
-                    </h6>
-                </a>
-            </div>
-            <div class="text-center">
-                <a href="">
-                    <div
-                        class="flex items-center justify-center w-10 h-10 mx-auto mb-2 rounded-full bg-blue-100 sm:w-12 sm:h-12 relative overflow-hidden transition duration-300 transform hover:-translate-y-1 hover:shadow-xl">
-                        <i class="far fa-handshake"></i>
-                    </div>
-                    <h6 class="mb-2 text-sm font-bold leading-5 tracking-wider">
-                        Mitra
-                    </h6>
-                </a>
+        </div>
+        <div class="bg-gray-50 px-4 py-5 mx-auto shadow sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
+            <div class="grid grid-cols-3 gap-5 row-gap-5 lg:grid-cols-6">
+                <div class="text-center">
+                    <a href="">
+                        <div
+                            class="flex items-center justify-center w-10 h-10 mx-auto mb-2 rounded-full bg-blue-100 sm:w-12 sm:h-12 relative overflow-hidden transition duration-300 transform hover:-translate-y-1 hover:shadow-xl">
+                            <i class="fas fa-school"></i>
+                        </div>
+                        <h6 class="mb-2 text-sm font-bold leading-5 tracking-wider">
+                            Kampus
+                        </h6>
+                    </a>
+                </div>
+                <div class="text-center">
+                    <a href="">
+                        <div
+                            class="flex items-center justify-center w-10 h-10 mx-auto mb-2 rounded-full bg-blue-100 sm:w-12 sm:h-12 relative overflow-hidden transition duration-300 transform hover:-translate-y-1 hover:shadow-xl">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <h6 class="mb-2 text-sm font-bold leading-5 tracking-wider">
+                            Jurusan
+                        </h6>
+                    </a>
+                </div>
+                <div class="text-center">
+                    <a href="">
+                        <div
+                            class="flex items-center justify-center w-10 h-10 mx-auto mb-2 rounded-full bg-blue-100 sm:w-12 sm:h-12 relative overflow-hidden transition duration-300 transform hover:-translate-y-1 hover:shadow-xl">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <h6 class="mb-2 text-sm font-bold leading-5 tracking-wider">
+                            Karir
+                        </h6>
+                    </a>
+                </div>
+                <div class="text-center">
+                    <a href="">
+                        <div
+                            class="flex items-center justify-center w-10 h-10 mx-auto mb-2 rounded-full bg-blue-100 sm:w-12 sm:h-12 relative overflow-hidden transition duration-300 transform hover:-translate-y-1 hover:shadow-xl">
+                            <i class="fas fa-award"></i>
+                        </div>
+                        <h6 class="mb-2 text-sm font-bold leading-5 tracking-wider">
+                            Beasiswa
+                        </h6>
+                    </a>
+                </div>
+                <div class="text-center">
+                    <a href="">
+                        <div
+                            class="flex items-center justify-center w-10 h-10 mx-auto mb-2 rounded-full bg-blue-100 sm:w-12 sm:h-12 relative overflow-hidden transition duration-300 transform hover:-translate-y-1 hover:shadow-xl">
+                            <i class="fas fa-diagnoses"></i>
+                        </div>
+                        <h6 class="mb-2 text-sm font-bold leading-5 tracking-wider">
+                            Uji Potensi
+                        </h6>
+                    </a>
+                </div>
+                <div class="text-center">
+                    <a href="">
+                        <div
+                            class="flex items-center justify-center w-10 h-10 mx-auto mb-2 rounded-full bg-blue-100 sm:w-12 sm:h-12 relative overflow-hidden transition duration-300 transform hover:-translate-y-1 hover:shadow-xl">
+                            <i class="far fa-handshake"></i>
+                        </div>
+                        <h6 class="mb-2 text-sm font-bold leading-5 tracking-wider">
+                            Mitra
+                        </h6>
+                    </a>
+                </div>
             </div>
         </div>
     </div>
+
+    
 
     <!-- Kampus -->
     <section class="px-4 text-gray-600 body-font md:px-24 lg:px-8">
@@ -420,7 +458,7 @@
                     Rekomendasi dari Kami
                 </span>
                 <div
-                    class="h-1 ml-auto duration-300 origin-left transform bg-deep-purple-accent-400 scale-x-30 group-hover:scale-x-100">
+                    class="h-1 ml-auto duration-300 origin-left transform bg-blue-400 scale-x-30 group-hover:scale-x-100">
                 </div>
             </h2>
             <p class="text-gray-700 lg:text-sm lg:max-w-md">
@@ -484,7 +522,7 @@
         </div>
         <div class="text-center">
             <a href="/" aria-label=""
-                class="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">
+                class="inline-flex items-center font-semibold transition-colors duration-200 text-blue-400 hover:text-deep-purple-800">
                 See more
                 <svg class="inline-block w-3 ml-2" fill="currentColor" viewBox="0 0 12 12">
                     <path
