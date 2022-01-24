@@ -1,11 +1,11 @@
 @extends('layouts.app')
 
 @section('body')
-<form class="mt-8 space-y-6" action="{{ route('register') }}" method="POST">
+<form class="space-y-6" action="{{ route('register') }}" method="POST">
     @csrf
 
-    <div class="min-h-full flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
-        <div class="max-w-2xl w-full space-y-8 shadow-lg rounded-md">
+    <div class="min-h-full flex items-center justify-center px-4 sm:px-6 lg:px-8">
+        <div class="max-w-2xl w-full space-y-8 border rounded-md">
             <div class="pt-5">
                 <h2 class="mt-6 text-center text-3xl font-extrabold text-gray-900">
                     Register and be useful to others
