@@ -551,10 +551,12 @@
 
                 <div class="grid grid-cols-1 gap-8 mt-8 xl:mt-0 xl:mx-4 xl:w-1/2 md:grid-cols-2">
                     <div>
-                        <img class="object-cover object-center w-full h-48 mx-auto rounded-lg"
+                        <!-- <img class="object-cover object-center w-full h-48 mx-auto rounded-lg"
                             src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=731&q=80"
-                            alt="avatar" />
-
+                            alt="avatar" /> -->
+                        <img class="object-cover object-center w-full h-48 mx-auto rounded-lg"
+                            src={{ asset('rul.jpeg') }}"
+                            alt="avatar rul" />
                         <h1 class="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-white">Fakhirul Akmal
                         </h1>
 
@@ -564,7 +566,7 @@
                     <div>
                         <img class="object-cover object-center w-full h-48 mx-auto rounded-lg"
                             src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
-                            alt="">
+                            alt="avatar zein">
 
                         <h1 class="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-white">Ahmad Zein Haddad</h1>
 
