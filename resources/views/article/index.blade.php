@@ -554,9 +554,7 @@
                         <!-- <img class="object-cover object-center w-full h-48 mx-auto rounded-lg"
                             src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=731&q=80"
                             alt="avatar" /> -->
-                        <img class="object-cover object-center w-full h-48 mx-auto rounded-lg"
-                            src="/images/rul.jpeg"
-                            alt="avatar rul" />
+                        <img class="object-cover object-center w-full h-48 mx-auto rounded-lg" src="/images/rul.jpeg" alt="avatar rul" />
                         <h1 class="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-white">Fakhirul Akmal
                         </h1>
 
