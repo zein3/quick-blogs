@@ -41,8 +41,8 @@
                     </nav>
                     @guest
                     <ul class="flex gap-x-2">
-                        <li><a class="px-4 py-3 border" href="/register">Daftar</a></li>
-                        <li><a class="px-4 py-3 bg-blue-500" href="/login">Masuk</a></li>
+                        <li><a class="px-4 py-3 font-bold border rounded" href="/register">Daftar</a></li>
+                        <li><a class="px-4 py-3 font-bold text-white bg-blue-500 rounded hover:bg-blue-600" href="/login">Masuk</a></li>
                     </ul>
                     @endguest
                     @auth
