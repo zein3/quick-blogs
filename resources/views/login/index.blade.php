@@ -22,13 +22,13 @@
                     <label for="email-address" class="sr-only">Username or email</label>
                     <input id="email-address" name="email" type="text" value="{{ old('email') }}" autocomplete="email"
                         required
-                        class="relative block w-full px-3 py-2 text-gray-900 placeholder-gray-500 border border-gray-300 rounded-none appearance-none rounded-t-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm"
+                        class="relative block w-full py-3 px-4 text-gray-900 placeholder-gray-500 border border-gray-300 rounded-none appearance-none rounded-t-md focus:outline-none focus:ring-blue-500 focus:border-blue-500 focus:z-10 sm:text-base"
                         placeholder="Username or email">
                 </div>
                 <div>
                     <label for="password" class="sr-only">Password</label>
                     <input id="password" name="password" type="password" autocomplete="current-password" required
-                        class="relative block w-full px-3 py-2 text-gray-900 placeholder-gray-500 border border-gray-300 rounded-none appearance-none rounded-b-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm"
+                        class="relative block w-full py-3 px-4 text-gray-900 placeholder-gray-500 border border-gray-300 rounded-none appearance-none rounded-b-md focus:outline-none focus:ring-blue-500 focus:border-blue-500 focus:z-10 sm:text-base"
                         placeholder="Password">
                 </div>
             </div>
@@ -36,14 +36,14 @@
             <div class="flex items-center justify-between">
                 <div class="flex items-center">
                     <input id="remember-me" name="remember-me" type="checkbox"
-                        class="w-4 h-4 text-indigo-600 border-gray-300 rounded focus:ring-indigo-500">
+                        class="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-500">
                     <label for="remember-me" class="block ml-2 text-sm text-gray-900">
                         Remember me
                     </label>
                 </div>
 
                 <div class="text-sm">
-                    <a href="{{ route('password.request') }}" class="font-medium text-indigo-600 hover:text-indigo-500">
+                    <a href="{{ route('password.request') }}" class="font-medium text-blue-600 hover:text-blue-500">
                         Forgot your password?
                     </a>
                 </div>
@@ -51,10 +51,10 @@
 
             <div>
                 <button type="submit"
-                    class="relative flex justify-center w-full px-4 py-2 text-sm font-medium text-white bg-indigo-600 border border-transparent group rounded-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+                    class="relative flex justify-center w-full px-4 py-2 text-sm font-medium text-white bg-blue-600 border border-transparent group rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">
                     <span class="absolute inset-y-0 left-0 flex items-center pl-3">
                         <!-- Heroicon name: solid/lock-closed -->
-                        <svg class="w-5 h-5 text-indigo-500 group-hover:text-indigo-400"
+                        <svg class="w-5 h-5 text-blue-500 group-hover:text-blue-400"
                             xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
                             aria-hidden="true">
                             <path fill-rule="evenodd"
