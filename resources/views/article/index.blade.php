@@ -382,7 +382,7 @@
     <!-- CTA -->
     <section class="px-4 bg-white dark:bg-gray-900 md:px-24 lg:px-8">
         <div class="container py-10 mx-auto">
-            <h1 class="text-3xl font-semibold text-gray-800 capitalize lg:text-4xl dark:text-white">explore our <br> awesome <span class="underline decoration-blue-500">features</span></h1>
+            <h1 class="text-3xl font-semibold text-gray-800 capitalize lg:text-4xl dark:text-white">Quick membantu <br> menggapai <span class="underline decoration-blue-500">Cita-Cita</span></h1>
             <div class="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-12 md:grid-cols-2 xl:grid-cols-3">
                 <div class="p-8 space-y-3 border-2 border-blue-400 dark:border-blue-300 rounded-xl">
                     <span class="inline-block text-blue-500 dark:text-blue-400">
@@ -566,7 +566,7 @@
                             src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
                             alt="">
 
-                        <h1 class="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-white">Ahmad Zein</h1>
+                        <h1 class="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-white">Ahmad Zein Haddad</h1>
 
                         <p class="mt-2 text-gray-500 capitalize dark:text-gray-300">Back End Developer</p>
                     </div>
