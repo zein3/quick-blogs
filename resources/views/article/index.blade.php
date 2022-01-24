@@ -540,8 +540,7 @@
         <div class="container px-4 py-10 mx-auto">
             <div class="xl:flex xl:items-center xL:-mx-4">
                 <div class="xl:w-1/2 xl:mx-4">
-                    <h1 class="text-3xl font-semibold text-gray-800 capitalize lg:text-4xl dark:text-white">Our Team
-                    </h1>
+                    <h1 class="text-3xl font-semibold text-gray-800 capitalize lg:text-4xl dark:text-white">Berkembang bersama kami</h1>
 
                     <p class="max-w-2xl mt-4 text-gray-500 dark:text-gray-300">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo incidunt ex placeat modi magni
@@ -551,9 +550,6 @@
 
                 <div class="grid grid-cols-1 gap-8 mt-8 xl:mt-0 xl:mx-4 xl:w-1/2 md:grid-cols-2">
                     <div>
-                        <!-- <img class="object-cover object-center w-full h-48 mx-auto rounded-lg"
-                            src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=731&q=80"
-                            alt="avatar" /> -->
                         <img class="object-cover object-center w-full h-48 mx-auto rounded-lg" src="/images/rul.jpeg" alt="avatar rul" />
                         <h1 class="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-white">Fakhirul Akmal
                         </h1>
