@@ -38,12 +38,16 @@
                         <a class="mr-5 hover:text-gray-900" href="{{ route('search') . '?category=jurusan' }}">Jurusan</a>
                         <a class="mr-5 hover:text-gray-900" href="{{ route('search') . '?category=karir' }}">Karir</a>
                         <a class="mr-5 hover:text-gray-900" href="{{ route('search') . '?category=artikel' }}">Artikel</a>
+                        <a class="block md:hidden mr-5 hover:text-gray-900" href="/register">Daftar</a>
+                        <a class="block md:hidden mr-5 hover:text-gray-900" href="/login">Masuk</a>
                     </nav>
                     @guest
-                    <ul class="flex gap-x-2">
-                        <li><a class="px-4 py-3 font-bold border rounded" href="/register">Daftar</a></li>
-                        <li><a class="px-4 py-3 font-bold text-white bg-blue-500 rounded hover:bg-blue-600" href="/login">Masuk</a></li>
-                    </ul>
+                    <div class="hidden md:block">
+                        <ul class="flex gap-x-2">
+                            <li><a class="px-4 py-3 font-bold border rounded" href="/register">Daftar</a></li>
+                            <li><a class="px-4 py-3 font-bold text-white bg-blue-500 rounded hover:bg-blue-600" href="/login">Masuk</a></li>
+                        </ul>
+                    </div>
                     @endguest
                     @auth
                     <ul class="flex gap-x-2">
@@ -85,9 +89,6 @@
                                 <a href="" class="text-gray-600 hover:text-gray-800">Cerita Quick</a>
                             </li>
                             <li class="mt-1">
-                                <a href="" class="text-gray-600 hover:text-gray-800">Penawaran</a>
-                            </li>
-                            <li class="mt-1">
                                 <a href="" class="text-gray-600 hover:text-gray-800">Ruang Berita</a>
                             </li>
                             <li class="mt-1">
@@ -105,13 +106,13 @@
                                 <a href="" class="text-gray-600 hover:text-gray-800">Kebijakan Privasi</a>
                             </li>
                             <li class="mt-1">
-                                <a href="" class="text-gray-600 hover:text-gray-800">Layanan Pengaduan</a>
-                            </li>
-                            <li class="mt-1">
                                 <a href="" class="text-gray-600 hover:text-gray-800">Syarat dan Ketentuan</a>
                             </li>
                             <li class="mt-1">
-                                <a href="" class="text-gray-600 hover:text-gray-800">Pusat Bantuan</a>
+                                <a href="" class="text-gray-600 hover:text-gray-800">Layanan Pengaduan</a>
+                            </li>
+                            <li class="mt-1">
+                                <a href="" class="text-gray-600 hover:text-gray-800">Pengaturan Cookie</a>
                             </li>
                             <li class="mt-1">
                                 <a href="" class="text-gray-600 hover:text-gray-800">Laporkan Bug</a>
