@@ -9,11 +9,12 @@
                 @endif
 
                 @foreach($articles as $article)
-                    
+                
                     <div class="p-3 md:w-1/2 lg:w-1/4">
-                        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                    <a href="">
+                        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden hover:shadow">
                             <img class="lg:h-48 md:h-36 w-full object-cover object-center"
-                                 src="{{ $article->thumbnail }}" alt="blog">
+                                src="{{ $article->thumbnail }}" alt="blog">
                             <div class="p-4">
                                 <h1 class="title-font text-lg font-medium text-gray-900 mb-2">{{ $article->title }}</h1>
                                 <p class="text-base mb-3">{{ $article->excerpt() }}</p>
@@ -37,7 +38,8 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </a>
+                </div>
 
                 @endforeach
             </div>

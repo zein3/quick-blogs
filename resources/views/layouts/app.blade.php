@@ -71,64 +71,67 @@
                 class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
                 <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
                     <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round"
-                            stroke-linejoin="round" stroke-width="2"
-                            class="w-10 h-10 text-white p-2 bg-blue-500 rounded-full" viewBox="0 0 24 24">
-                            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
-                        </svg>
-                        <span class="ml-3 text-xl">Quick</span>
+                        <span class="text-xl font-bold">PT Quick Cahaya Ilahi</span>
                     </a>
-                    <p class="mt-2 text-sm text-gray-500">Air plant banjo lyft occupy retro adaptogen indego</p>
+                    <p class="mt-2 text-base text-gray-800">Gedung Kemerdekaan, Jl. Asrama Divisi 1 Kostrad, Cilodong, Depok, 16414</p>
+                    <p class="mt-2 text-base text-gray-800"><i class="far fa-envelope"></i> cs@quick.co.id</p>
+                    <p class="mt-2 text-base text-gray-800"><i class="fab fa-whatsapp"></i> 021-222-8411 </p>
                 </div>
                 <div class="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
                     <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-                        <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
+                        <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">TENTANG QUICK</h2>
                         <nav class="list-none mb-10">
-                            <li>
-                                <a class="text-gray-600 hover:text-gray-800">First Link</a>
+                            <li class="mt-1">
+                                <a href="" class="text-gray-600 hover:text-gray-800">Cerita Quick</a>
                             </li>
-                            <li>
-                                <a class="text-gray-600 hover:text-gray-800">Second Link</a>
+                            <li class="mt-1">
+                                <a href="" class="text-gray-600 hover:text-gray-800">Penawaran</a>
                             </li>
-                            <li>
-                                <a class="text-gray-600 hover:text-gray-800">Third Link</a>
+                            <li class="mt-1">
+                                <a href="" class="text-gray-600 hover:text-gray-800">Ruang Berita</a>
                             </li>
-                            <li>
-                                <a class="text-gray-600 hover:text-gray-800">Fourth Link</a>
+                            <li class="mt-1">
+                                <a href="" class="text-gray-600 hover:text-gray-800">Pertanyaan (FAQ)</a>
+                            </li>
+                            <li class="mt-1">
+                                <a href="" class="text-gray-600 hover:text-gray-800">Karir</a>
                             </li>
                         </nav>
                     </div>
                     <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-                        <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
+                        <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">BANTUAN DAN KEBIJAKAN</h2>
                         <nav class="list-none mb-10">
-                            <li>
-                                <a class="text-gray-600 hover:text-gray-800">First Link</a>
+                            <li class="mt-1">
+                                <a href="" class="text-gray-600 hover:text-gray-800">Kebijakan Privasi</a>
                             </li>
-                            <li>
-                                <a class="text-gray-600 hover:text-gray-800">Second Link</a>
+                            <li class="mt-1">
+                                <a href="" class="text-gray-600 hover:text-gray-800">Layanan Pengaduan</a>
                             </li>
-                            <li>
-                                <a class="text-gray-600 hover:text-gray-800">Third Link</a>
+                            <li class="mt-1">
+                                <a href="" class="text-gray-600 hover:text-gray-800">Syarat dan Ketentuan</a>
                             </li>
-                            <li>
-                                <a class="text-gray-600 hover:text-gray-800">Fourth Link</a>
+                            <li class="mt-1">
+                                <a href="" class="text-gray-600 hover:text-gray-800">Bantuan</a>
+                            </li>
+                            <li class="mt-1">
+                                <a href="" class="text-gray-600 hover:text-gray-800">Laporkan Bug</a>
                             </li>
                         </nav>
                     </div>
                     <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-                        <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
+                        <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">TAUTAN LANGSUNG</h2>
                         <nav class="list-none mb-10">
-                            <li>
-                                <a class="text-gray-600 hover:text-gray-800">First Link</a>
+                            <li class="mt-1">
+                                <a href="" class="text-gray-600 hover:text-gray-800">Layanan Kerjasama</a>
                             </li>
-                            <li>
-                                <a class="text-gray-600 hover:text-gray-800">Second Link</a>
+                            <li class="mt-1">
+                                <a href="" class="text-gray-600 hover:text-gray-800">Produk Kami</a>
                             </li>
-                            <li>
-                                <a class="text-gray-600 hover:text-gray-800">Third Link</a>
+                            <li class="mt-1">
+                                <a href="" class="text-gray-600 hover:text-gray-800">Uji Potensi</a>
                             </li>
-                            <li>
-                                <a class="text-gray-600 hover:text-gray-800">Fourth Link</a>
+                            <li class="mt-1">
+                                <a href="" class="text-gray-600 hover:text-gray-800">Login Mitra</a>
                             </li>
                         </nav>
                     </div>
@@ -146,7 +149,7 @@
             </div>
             <div class="bg-gray-100">
                 <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
-                    <p class="text-gray-500 text-sm text-center sm:text-left">© 2022 Quick — gratis, mudah dan lengkap
+                    <p class="text-gray-500 text-sm text-center sm:text-left">© 2022 Quick — All Rights Reserved PT Quick Cahaya Ilahi
                     </p>
                     <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
                         <a class="text-gray-500">

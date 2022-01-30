@@ -531,10 +531,7 @@
             </a>
         </div>
     </div>
-
-
     
-
 
     <section class="bg-white dark:bg-gray-900">
         <div class="container px-4 py-10 mx-auto">
