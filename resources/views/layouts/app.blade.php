@@ -111,7 +111,7 @@
                                 <a href="" class="text-gray-600 hover:text-gray-800">Syarat dan Ketentuan</a>
                             </li>
                             <li class="mt-1">
-                                <a href="" class="text-gray-600 hover:text-gray-800">Bantuan</a>
+                                <a href="" class="text-gray-600 hover:text-gray-800">Pusat Bantuan</a>
                             </li>
                             <li class="mt-1">
                                 <a href="" class="text-gray-600 hover:text-gray-800">Laporkan Bug</a>
@@ -122,13 +122,13 @@
                         <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">TAUTAN LANGSUNG</h2>
                         <nav class="list-none mb-10">
                             <li class="mt-1">
-                                <a href="" class="text-gray-600 hover:text-gray-800">Layanan Kerjasama</a>
-                            </li>
-                            <li class="mt-1">
                                 <a href="" class="text-gray-600 hover:text-gray-800">Produk Kami</a>
                             </li>
                             <li class="mt-1">
-                                <a href="" class="text-gray-600 hover:text-gray-800">Uji Potensi</a>
+                                <a href="" class="text-gray-600 hover:text-gray-800">Layanan Kerjasama</a>
+                            </li>
+                            <li class="mt-1">
+                                <a href="" class="text-gray-600 hover:text-gray-800">Investor</a>
                             </li>
                             <li class="mt-1">
                                 <a href="" class="text-gray-600 hover:text-gray-800">Login Mitra</a>
